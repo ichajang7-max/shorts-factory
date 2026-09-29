@@ -6,6 +6,9 @@
 
 위 영상은 이 저장소의 예제 대본(`script.json`, 가짜 내용)을 그대로 돌려 나온 결과입니다(약 16초, 소리는 GIF 라 빠져 있음).
 
+> 🎬 **이 도구를 만든 사람의 채널** — 클로드 코드로 일하는 직장인 이야기와 이 도구로 만든 쇼츠를 올립니다.
+> ▶️ 유튜브 [@leechajang7](https://www.youtube.com/@leechajang7) · 📸 인스타 [@leechajang.excel](https://www.instagram.com/leechajang.excel/)
+
 ## 하는 일 (여기까지만 합니다)
 
 1. **대본** `script.json` — 문장마다 화면 자막(`caption`)과 읽을 말(`tts`), 어느 장면에 넣을지(`scene`)
@@ -100,3 +103,6 @@ npm run render   # -> out/short.mp4
 
 Settings (TTS model, voice, colors) live in `config.json`. No fonts, music or images are included.
 Provided **as is** — no support or PR review promised. Code is MIT; **Remotion has its own license** (free for individuals and companies with up to 3 employees, paid company license otherwise — check the original: https://github.com/remotion-dev/remotion/blob/main/LICENSE.md). Gemini API terms: https://ai.google.dev/gemini-api/terms
+
+---
+만든 사람: 이차장 — ▶️ [유튜브 @leechajang7](https://www.youtube.com/@leechajang7) · 📸 [인스타 @leechajang.excel](https://www.instagram.com/leechajang.excel/)
