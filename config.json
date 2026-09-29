@@ -1,0 +1,25 @@
+{
+  "tts": {
+    "model": "gemini-3.1-flash-tts-preview",
+    "voice": "Charon",
+    "style": "차분하고 또렷한 한국어로, 짧은 세로 영상처럼 경쾌하고 조금 빠르게, 쉼은 짧게 읽어 주세요:\n",
+    "linesPerRequest": 4,
+    "tempo": 1.1
+  },
+  "look": {
+    "sceneColors": ["#1B1F2A", "#15303A", "#2B2238", "#1F2B22"],
+    "accent": "#7FD1C7",
+    "chip": "#3B6FD8",
+    "text": "#FFFFFF",
+    "subText": "#C5CAD3"
+  },
+  "font": {
+    "file": "",
+    "family": "'Malgun Gothic', 'Apple SD Gothic Neo', 'Noto Sans KR', sans-serif"
+  },
+  "music": {
+    "file": "",
+    "volume": 0.1
+  },
+  "watermark": ""
+}

@@ -1,0 +1,24 @@
+{
+  "name": "shorts-factory",
+  "version": "0.1.0",
+  "description": "문장 몇 줄 → 세로 쇼츠(목소리·자막). Gemini TTS + Remotion 예제",
+  "private": true,
+  "license": "MIT",
+  "scripts": {
+    "setup": "npm install && python -m pip install -r requirements.txt",
+    "voice": "python tools/make_voice.py script.json",
+    "render": "remotion render short out/short.mp4",
+    "studio": "remotion studio"
+  },
+  "dependencies": {
+    "@remotion/cli": "4.0.526",
+    "@remotion/renderer": "4.0.526",
+    "react": "19.3.0",
+    "react-dom": "19.3.0",
+    "remotion": "4.0.526"
+  },
+  "devDependencies": {
+    "@types/react": "19.3.0",
+    "typescript": "7.0.2"
+  }
+}
